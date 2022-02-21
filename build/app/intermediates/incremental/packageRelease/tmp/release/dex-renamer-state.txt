@@ -1,0 +1,4 @@
+#Fri Feb 18 01:46:22 ICT 2022
+base.0=/Users/apple/Desktop/shipvn/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

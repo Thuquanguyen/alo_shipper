@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/moca/shipper/BuildConfig.java
+ com.moca.shipper.BuildConfig
+com/moca/shipper/MainActivity.java
+ com.moca.shipper.MainActivity

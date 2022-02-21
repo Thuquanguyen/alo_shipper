@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moca.shipper"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <queries>
+13-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:6:5-27:15
+14
+15        <!-- If your app opens https URLs -->
+16        <intent>
+16-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:8:9-11:18
+17            <action android:name="android.intent.action.VIEW" />
+17-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:9:13-65
+17-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:9:21-62
+18
+19            <data android:scheme="https" />
+19-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:10:13-44
+19-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:10:19-41
+20        </intent>
+21        <!-- If your app makes calls -->
+22        <intent>
+22-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:13:9-16:18
+23            <action android:name="android.intent.action.DIAL" />
+23-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:14:13-65
+23-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:14:21-62
+24
+25            <data android:scheme="tel" />
+25-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:10:13-44
+25-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:10:19-41
+26        </intent>
+27        <!-- If your sends SMS messages -->
+28        <intent>
+28-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:18:9-21:18
+29            <action android:name="android.intent.action.SENDTO" />
+29-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:19:13-67
+29-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:19:21-64
+30
+31            <data android:scheme="smsto" />
+31-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:10:13-44
+31-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:10:19-41
+32        </intent>
+33        <!-- If your app sends emails -->
+34        <intent>
+34-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:23:9-26:18
+35            <action android:name="android.intent.action.SEND" />
+35-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:24:13-65
+35-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:24:21-62
+36
+37            <data android:mimeType="*/*" />
+37-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:10:13-44
+37-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:25:19-41
+38        </intent>
+39    </queries>
+40
+41    <application
+41-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:28:5-64:19
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.6.0] /Users/apple/Desktop/flutters/android/gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/AndroidManifest.xml:24:18-86
+43        android:icon="@mipmap/ic_avatar"
+43-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:29:9-41
+44        android:label="Alo Shipper" >
+44-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:30:9-36
+45        <activity
+45-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:31:9-58:20
+46            android:name="com.moca.shipper.MainActivity"
+46-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:32:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:33:13-163
+48            android:hardwareAccelerated="true"
+48-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:34:13-47
+49            android:icon="@mipmap/ic_avatar"
+49-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:35:13-45
+50            android:launchMode="singleTop"
+50-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:36:13-43
+51            android:theme="@style/LaunchTheme"
+51-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:37:13-47
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:38:13-55
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+60-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:43:13-45:57
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:44:17-72
+62                android:resource="@style/NormalTheme" />
+62-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:45:17-54
+63            <!--
+64                 Displays an Android View that continues showing the launch screen
+65                 Drawable until Flutter paints its first frame, then this splash
+66                 screen fades out. A splash screen is useful to avoid any visual
+67                 gap between the end of Android's launch screen and the painting of
+68                 Flutter's first frame.
+69            -->
+70            <meta-data
+70-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:51:13-53:66
+71                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+71-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:52:17-81
+72                android:resource="@drawable/launch_background" />
+72-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:53:17-63
+73
+74            <intent-filter>
+74-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:54:13-57:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:55:17-69
+75-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:55:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:56:17-77
+77-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:56:27-74
+78            </intent-filter>
+79        </activity>
+80        <!--
+81             Don't delete the meta-data below.
+82             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+83        -->
+84        <meta-data
+84-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:61:9-63:33
+85            android:name="flutterEmbedding"
+85-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:62:13-44
+86            android:value="2" />
+86-->/Users/apple/Desktop/shipvn/android/app/src/main/AndroidManifest.xml:63:13-30
+87
+88        <activity
+88-->[:url_launcher_android] /Users/apple/Desktop/shipvn/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+89            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+89-->[:url_launcher_android] /Users/apple/Desktop/shipvn/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+90            android:exported="false"
+90-->[:url_launcher_android] /Users/apple/Desktop/shipvn/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+91            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+91-->[:url_launcher_android] /Users/apple/Desktop/shipvn/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+92    </application>
+93
+94</manifest>
