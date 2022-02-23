@@ -39,7 +39,10 @@ List<String> listStartNumber = [
   '08966',
   '092',
   '056',
-  '058'
+  '058',
+  '079',
+  '087',
+  '077'
 ];
 
 const String KEY_LOGIN = 'KEY_LOGIN';
@@ -61,7 +64,7 @@ void clearTimeout(StreamSubscription subscription) {
 }
 
 String checkPhoneNumber(String value) {
-  if(value.isNotEmpty) {
+  if (value.isNotEmpty) {
     for (var element in listStartNumber) {
       if (value.contains(element)) {
         int index = value.indexOf(element);
@@ -77,7 +80,7 @@ String checkPhoneNumber(String value) {
 }
 
 String getPhoneNumber(String value) {
-  if(value.isNotEmpty){
+  if (value.isNotEmpty) {
     for (var element in listStartNumber) {
       if (value.contains(element)) {
         int index = value.indexOf(element);

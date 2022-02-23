@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Desktop/shipvn/build/url_launcher_android/intermediates/res/merged/debug/values-lo/values-lo.xml",
+            "outputFile": "/Users/apple/Desktop/alo_shipper/build/url_launcher_android/intermediates/res/merged/debug/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/res/values-lo/values-lo.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/apple/Desktop/shipvn/build/url_launcher_android/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
+            "outputFile": "/Users/apple/Desktop/alo_shipper/build/url_launcher_android/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/res/values-lo/values-lo.xml",

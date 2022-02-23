@@ -8,9 +8,9 @@ import 'package:shipper/model/user_model.dart';
 
 class Repository {
   Future<ShipModel> getData(bool isFirstCall, {String? minId}) async {
-    String url = 'https://fb-crawl-order.herokuapp.com/api/v1/posts/new';
+    String url = 'http://103.98.148.95/api/v1/posts/new';
     String url1 =
-        'https://fb-crawl-order.herokuapp.com/api/v1/posts/new${minId != null ? '?min_id=$minId' : ''}';
+        'http://103.98.148.95/api/v1/posts/new${minId != null ? '?min_id=$minId' : ''}';
     print('url ${url1}');
     print('token ${LoginController().user?.token}');
     // Await the http get response, then decode the json-formatted response.
@@ -29,7 +29,7 @@ class Repository {
   }
 
   Future<ShipModel> getNotes() async {
-    String url = 'https://fb-crawl-order.herokuapp.com/api/v1/notes/get_all';
+    String url = 'http://103.98.148.95/api/v1/notes/get_all';
     print('url ${url}');
     print('token ${LoginController().user?.token}');
     // Await the http get response, then decode the json-formatted response.
@@ -49,7 +49,7 @@ class Repository {
 
   Future<ProfileModel> getListUser({int pageNumber = 1}) async {
     String url =
-        'https://fb-crawl-order.herokuapp.com/api/v1/admin/users.json?page=$pageNumber';
+        'http://103.98.148.95/api/v1/admin/users.json?page=$pageNumber';
     print('url ${url}');
     // Await the http get response, then decode the json-formatted response.
     var response = await http.get(
@@ -68,7 +68,7 @@ class Repository {
 
   Future<ProfileModel> searchProfile(String value) async {
     String url =
-        'https://fb-crawl-order.herokuapp.com/api/v1/admin/users.json?username=$value';
+        'http://103.98.148.95/api/v1/admin/users.json?username=$value';
     print('url ${url}');
     // Await the http get response, then decode the json-formatted response.
     var response = await http.get(
@@ -86,7 +86,7 @@ class Repository {
   }
 
   Future<User> login(String userName, String passWord) async {
-    String url = 'https://fb-crawl-order.herokuapp.com/api/v1/auth/login';
+    String url = 'http://103.98.148.95/api/v1/auth/login';
     // Await the http get response, then decode the json-formatted response.
     final queryParameters = {
       'username': userName,
@@ -109,7 +109,7 @@ class Repository {
 
   Future<bool> register(String userName, String passWord, String fullName,
       String phone, String email) async {
-    String url = 'https://fb-crawl-order.herokuapp.com/api/v1/user/create';
+    String url = 'http://103.98.148.95/api/v1/user/create';
     // Await the http get response, then decode the json-formatted response.
     final queryParameters = {
       'username': userName,
@@ -130,7 +130,7 @@ class Repository {
   }
 
   Future<bool> activeUser(String userName) async {
-    String url = 'https://fb-crawl-order.herokuapp.com/api/v1/user/active';
+    String url = 'http://103.98.148.95/api/v1/user/active';
 
     // Await the http get response, then decode the json-formatted response.
     final queryParameters = {
@@ -150,7 +150,7 @@ class Repository {
   }
 
   Future<bool> deActiveUser(String userName) async {
-    String url = 'https://fb-crawl-order.herokuapp.com/api/v1/user/deactive';
+    String url = 'http://103.98.148.95/api/v1/user/deactive';
 
     // Await the http get response, then decode the json-formatted response.
     final queryParameters = {
@@ -170,7 +170,7 @@ class Repository {
 
   Future<bool> createNote(String postId, bool isAdd) async {
     String url =
-        'https://fb-crawl-order.herokuapp.com/api/v1/notes/${isAdd ? 'create_note' : 'delete_note'}';
+        'http://103.98.148.95/api/v1/notes/${isAdd ? 'create_note' : 'delete_note'}';
 
     // Await the http get response, then decode the json-formatted response.
     final queryParameters = {
@@ -190,7 +190,7 @@ class Repository {
 
   Future<bool> warningUser(String facebookID) async {
     String url =
-        'https://fb-crawl-order.herokuapp.com/api/v1/black_list/add';
+        'http://103.98.148.95/api/v1/black_list/add';
 
     // Await the http get response, then decode the json-formatted response.
     final queryParameters = {

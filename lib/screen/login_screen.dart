@@ -14,17 +14,17 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  final userNameController = TextEditingController(text: '0969551162');
-  final passWordController = TextEditingController(text: '1');
-
+  // final userNameController = TextEditingController(text: '0969551162');
+  // final passWordController = TextEditingController(text: '1');
+  //
   // final userNameController = TextEditingController(text: '0961356965');
-  // final passWordController = TextEditingController(text: 'thuanpro');
+  // final passWordController = TextEditingController(text: '1');
 
   // final userNameController = TextEditingController(text: 'admin');
   // final passWordController = TextEditingController(text: '123123');
 
-  // final userNameController = TextEditingController(text: '');
-  // final passWordController = TextEditingController(text: '');
+  final userNameController = TextEditingController(text: '');
+  final passWordController = TextEditingController(text: '');
   bool isShowLoading = false;
 
   @override
@@ -148,8 +148,8 @@ class _LoginScreenState extends State<LoginScreen> {
                                 isShowLoading = false;
                               });
                               if (value.username?.isNotEmpty ?? false) {
-                                if (userName == 'admin' &&
-                                    passWord == '123123') {
+                                if (userName == '0961356965' &&
+                                    passWord == '1') {
                                   await setStatusLogin(true, context);
                                   await saveData(LoginController().user);
                                   Navigator.of(context).pushReplacement(

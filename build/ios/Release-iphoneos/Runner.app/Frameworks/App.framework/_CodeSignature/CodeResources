@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		DlUbx1IYT1w2kUmk7tuOcAGJBTE=
+		QtXvofEDaRlJe05FCDFTIpuBLu0=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		dzyNg5mdKqumx9C8l0hlMVX3L4I=
+		gYlhN9prMAzcXRKUk4cB/rIbtUA=
 		</data>
 		<key>flutter_assets/assets/images/background.png</key>
 		<data>
@@ -28,6 +28,10 @@
 		<data>
 		QuT5I/QxpL5FCrNZstSZyoHB+IY=
 		</data>
+		<key>flutter_assets/assets/images/ic_avatar.jpg</key>
+		<data>
+		oZ5LPohMMsK0G8DChWuQq9MaZ2Q=
+		</data>
 		<key>flutter_assets/assets/images/ic_zalo.png</key>
 		<data>
 		RQVQMfq03km5u02bcK6KVTuctx0=
@@ -35,6 +39,10 @@
 		<key>flutter_assets/assets/images/ico_logo.png</key>
 		<data>
 		XQt0xjMskgdFDpkTVoahp9pLkiI=
+		</data>
+		<key>flutter_assets/assets/images/img_logo.jpg</key>
+		<data>
+		y3k2LQJ3hE+sX4cbpJzYBoZi3iU=
 		</data>
 		<key>flutter_assets/assets/images/light-1.png</key>
 		<data>
@@ -59,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DlUbx1IYT1w2kUmk7tuOcAGJBTE=
+			QtXvofEDaRlJe05FCDFTIpuBLu0=
 			</data>
 			<key>hash2</key>
 			<data>
-			VL7iASKoHJ0WxL+/PJ1UDZE1YnrJUewhP2vPBNFaaxE=
+			Hpq9Ncs/eFKXgca9RACWu/xA1roSDKU4NtsH+92Chi8=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -81,11 +89,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dzyNg5mdKqumx9C8l0hlMVX3L4I=
+			gYlhN9prMAzcXRKUk4cB/rIbtUA=
 			</data>
 			<key>hash2</key>
 			<data>
-			DVSr9v/qWLlIZgxlO0nstxZ49TxqyOtJClJTa62cY+U=
+			amGz50wnW2Unj80sma/6i/oDKODvQdfhRo1X55SSItE=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/background.png</key>
@@ -110,6 +118,17 @@
 			AjVV4oeH/o4ck/fH66DBSXduOsQrK/8BfqC7ZQx3PIc=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/ic_avatar.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oZ5LPohMMsK0G8DChWuQq9MaZ2Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			vrr6DYhFiGnMw9Haw8p6pT1kjHjnEmp6xJ7MAWKtaeQ=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/ic_zalo.png</key>
 		<dict>
 			<key>hash</key>
@@ -130,6 +149,17 @@
 			<key>hash2</key>
 			<data>
 			ULWSaCFlE2Jb3l37qyXNlDA4TuJSIPu1Ml3WIP1jV+0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/img_logo.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y3k2LQJ3hE+sX4cbpJzYBoZi3iU=
+			</data>
+			<key>hash2</key>
+			<data>
+			eDFyS8QWDboW2IugoYzEh+eD7rFw0Yoa+tzSJhk8Ewo=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/light-1.png</key>

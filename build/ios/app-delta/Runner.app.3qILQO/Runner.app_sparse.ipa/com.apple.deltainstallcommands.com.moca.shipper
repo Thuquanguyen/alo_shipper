@@ -1,0 +1,61 @@
+ipaD
+1
+1 1.0.1
++AppFrameworkInfo.plist
++AppIcon60x60@2x.png
++AppIcon76x76@2x~ipad.png
++Assets.car
++Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
++Base.lproj/LaunchScreen.storyboardc/Info.plist
++Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
++Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
++Base.lproj/Main.storyboardc/Info.plist
++Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
++Frameworks/App.framework/App
++Frameworks/App.framework/_CodeSignature/CodeResources
++Frameworks/App.framework/flutter_assets/AssetManifest.json
++Frameworks/App.framework/flutter_assets/FontManifest.json
++Frameworks/App.framework/flutter_assets/NOTICES.Z
+-Frameworks/App.framework/flutter_assets/isolate_snapshot_data
+-Frameworks/App.framework/flutter_assets/kernel_blob.bin
+-Frameworks/App.framework/flutter_assets/vm_snapshot_data
++Frameworks/Flutter.framework/Flutter
++Frameworks/Flutter.framework/Headers/Flutter.h
++Frameworks/Flutter.framework/Headers/FlutterAppDelegate.h
++Frameworks/Flutter.framework/Headers/FlutterBinaryMessenger.h
++Frameworks/Flutter.framework/Headers/FlutterCallbackCache.h
++Frameworks/Flutter.framework/Headers/FlutterChannels.h
++Frameworks/Flutter.framework/Headers/FlutterCodecs.h
++Frameworks/Flutter.framework/Headers/FlutterDartProject.h
++Frameworks/Flutter.framework/Headers/FlutterEngine.h
++Frameworks/Flutter.framework/Headers/FlutterEngineGroup.h
++Frameworks/Flutter.framework/Headers/FlutterHeadlessDartRunner.h
++Frameworks/Flutter.framework/Headers/FlutterMacros.h
++Frameworks/Flutter.framework/Headers/FlutterPlatformViews.h
++Frameworks/Flutter.framework/Headers/FlutterPlugin.h
++Frameworks/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h
++Frameworks/Flutter.framework/Headers/FlutterTexture.h
++Frameworks/Flutter.framework/Headers/FlutterViewController.h
++Frameworks/Flutter.framework/Info.plist
++Frameworks/Flutter.framework/Modules/module.modulemap
++Frameworks/Flutter.framework/_CodeSignature/CodeResources
++Frameworks/Flutter.framework/icudtl.dat
++Frameworks/external_app_launcher.framework/Info.plist
++Frameworks/external_app_launcher.framework/_CodeSignature/CodeResources
++Frameworks/external_app_launcher.framework/external_app_launcher
++Frameworks/shared_preferences_ios.framework/Info.plist
++Frameworks/shared_preferences_ios.framework/_CodeSignature/CodeResources
++Frameworks/shared_preferences_ios.framework/shared_preferences_ios
++Frameworks/url_launcher_ios.framework/Info.plist
++Frameworks/url_launcher_ios.framework/_CodeSignature/CodeResources
++Frameworks/url_launcher_ios.framework/url_launcher_ios
++Info.plist
++PkgInfo
++Runner
++_CodeSignature/CodeResources
++embedded.mobileprovision
+xEOF
+#CreateSparseIPA UUID: F66C98E2-A796-3754-AC6D-D20FD0B084BC
+#Bundle id: com.moca.shipper
+#Old bundle version: 1 1.0.1
+#New bundle version: 1 1.0.2

@@ -50,6 +50,8 @@ class _HomeScreenState extends State<HomeScreen>
   Animation<double>? _animation;
   AnimationController? _animationController;
 
+  late Timer _timer;
+
   void configAnimation() {
     _animationController = AnimationController(
       vsync: this,
@@ -74,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen>
       setState(() {});
     });
 
-    Timer.periodic(const Duration(milliseconds: 10000), (timer) {
+    _timer = Timer.periodic(const Duration(milliseconds: 10000), (timer) {
       if (listData.isNotEmpty) {
         Repository().getData(false, minId: listData[0].id).then((value) {
           for (Shipper item in value.data ?? []) {
@@ -98,6 +100,13 @@ class _HomeScreenState extends State<HomeScreen>
       handleAction();
     }
     super.initState();
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    _timer.cancel();
+    super.dispose();
   }
 
   @override
@@ -172,13 +181,11 @@ class _HomeScreenState extends State<HomeScreen>
                                     children: [
                                       Icon(
                                         LoginController().user?.status ==
-                                            'ACTIVE'
+                                                'ACTIVE'
                                             ? Icons.verified
                                             : Icons.warning,
-                                        color: LoginController()
-                                            .user
-                                            ?.status ==
-                                            'ACTIVE'
+                                        color: LoginController().user?.status ==
+                                                'ACTIVE'
                                             ? Colors.blueAccent
                                             : Colors.red,
                                         size: 16,
@@ -188,14 +195,14 @@ class _HomeScreenState extends State<HomeScreen>
                                       ),
                                       Text(
                                         LoginController().user?.status ==
-                                            'ACTIVE'
+                                                'ACTIVE'
                                             ? 'Đã kích hoạt'
                                             : 'Chưa kích hoạt',
                                         style: TextStyle(
                                             color: LoginController()
-                                                .user
-                                                ?.status ==
-                                                'ACTIVE'
+                                                        .user
+                                                        ?.status ==
+                                                    'ACTIVE'
                                                 ? Colors.blueAccent
                                                 : Colors.red,
                                             fontWeight: FontWeight.bold),
